@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: xx-large;
+}
+.links {
+    display: flex;
+    justify-content: ;
+}
+
+li  {
+    list-style-type: none;
+    margin-right:100px;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.main {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+.text1 {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.info-1 {
+    list-style-type:circle;
+}
+.skills {
+    list-style: circle;
+}
+
+/* Education */
+.table-user {
+    background-color: aqua;
+    border-collapse: collapse;
+    width: 500px;
+}
+.table-user td,.table-user th {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+/* Contact */
+
+.info-contact {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
