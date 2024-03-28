@@ -11,10 +11,9 @@
 }
 .links {
     display: flex;
-    justify-content: ;
 }
 
-li  {
+.links li {
     list-style-type: none;
     margin-right:100px;
 }
@@ -41,7 +40,7 @@ img {
     background-color: aqua;
 }
 .info-1 {
-    list-style-type:circle;
+    list-style-type: none;
 }
 .skills {
     list-style: circle;
